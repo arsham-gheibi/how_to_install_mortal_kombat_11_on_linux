@@ -12,6 +12,7 @@ steam steam://run/976310
 
 ```sh
 git clone git@github.com:z0z0z/mf-install.git
+cd mf-install
 WINEPREFIX="/home/<username>/.steam/steam/steamapps/compatdata/976310/pfx" PROTON="/home/<username>/.steam/steam/compatibilitytools.d/Proton-VERSION" ./mf-install.sh -proton
 ```
 
