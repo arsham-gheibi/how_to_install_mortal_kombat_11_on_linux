@@ -1,7 +1,7 @@
 ## Guide to Install MK11 on Linux
 
-1. Install Proton-6.5-GE-2; this is the best version for MK11; it works better than Proton-7.0rc6-GE-1 : https://github.com/GloriousEggroll/proton-ge-custom/releases/tag/6.5-GE-2
-2. Run the game with this command just for the first time to see Proton installation logs ( it may take a while ) and then exit the game
+1. Install the Latest version of Proton-GE-Custom: https://github.com/GloriousEggroll/proton-ge-custom/releases/latest
+2. Run the game with this command just for the first time to see Proton logs ( it may take a while ) and then exit the game
 
 ```sh
 steam steam://run/976310
