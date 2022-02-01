@@ -26,8 +26,6 @@ WINEPREFIX="/home/<username>/.steam/steam/steamapps/compatdata/976310/pfx" PROTO
 
 Enjoy!
 
-#
-
 ## Intel Performance Support
 
 if you use intel CPU, do the following :
@@ -45,8 +43,6 @@ sudo crontab -e
 ```
 
 Reboot your machine, and you should be good to go
-
-#
 
 ## Did the game crash at the Start?
 
