@@ -19,7 +19,7 @@ steam steam://run/976310
 ```sh
 git clone https://github.com/z0z0z/mf-install.git
 cd mf-install
-WINEPREFIX="/home/<username>/.steam/steam/steamapps/compatdata/976310/pfx" PROTON="/home/<username>/.steam/steam/compatibilitytools.d/Proton-VERSION" ./mf-install.sh -proton
+WINEPREFIX="$HOME/.steam/steam/steamapps/compatdata/976310/pfx" PROTON="$HOME/.steam/steam/compatibilitytools.d/Proton-VERSION" ./mf-install.sh -proton
 ```
 
 7. Run the game with Steam launcher
@@ -46,7 +46,7 @@ Reboot your machine, and you should be good to go
 
 ## Game crash at the start
 
-First, make sure that the Shader pre-caching is "off"
+First, make sure that the Shader pre-caching is `off`
 also, remove the MK11 shader cache folder
 
 ```sh
