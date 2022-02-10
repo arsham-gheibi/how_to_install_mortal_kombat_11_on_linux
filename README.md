@@ -44,19 +44,6 @@ sudo crontab -e
 
 Reboot your machine, and you should be good to go
 
-## Game crash at the start
-
-First, make sure that the Shader pre-caching is `off`
-also, remove the MK11 shader cache folder
-
-```sh
-rm -rf ~/.steam/steam/steamapps/shadercache/976310
-```
-
-I do not have a permanent solution for this, but reboot your machine and try again if this happens.
-
-It works for me!
-
 ## Upgrade Proton
 
 if you want to upgrade Proton, be sure to remove the current MK11 wine folder before that :
