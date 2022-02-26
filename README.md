@@ -14,15 +14,7 @@ steam steam://run/976310
 
 3. Use this fix for desync issues in online mod : https://github.com/ValveSoftware/Proton/issues/2594#issuecomment-833121204
 
-4. Install mf-install with following command
-
-```sh
-git clone https://github.com/z0z0z/mf-install.git
-cd mf-install
-WINEPREFIX="$HOME/.steam/steam/steamapps/compatdata/976310/pfx" PROTON="$HOME/.steam/steam/compatibilitytools.d/Proton-VERSION" ./mf-install.sh -proton
-```
-
-7. Run the game with Steam launcher
+4. Run the game with Steam launcher
 
 Enjoy!
 
